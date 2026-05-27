@@ -1,0 +1,23 @@
+{
+    "name": "rithisethtes/ks-player",
+    "description": "A PHP-based JW Player integration that dynamically fetches video sources and subtitles from the Blogger JSON Feed API.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RithiSeth Tes",
+            "homepage": "https://www.rithisethtes.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "KsPlayer\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
